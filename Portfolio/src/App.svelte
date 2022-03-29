@@ -1,6 +1,7 @@
 <script lang="ts">
-  import NavBar from "./lib/NavBar.svelte"
   import "bootstrap/dist/css/bootstrap.min.css"
+
+  import NavBar from "./lib/NavBar.svelte"
 </script>
 
 <main>
