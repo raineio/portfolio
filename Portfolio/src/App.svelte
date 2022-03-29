@@ -1,11 +1,15 @@
 <script lang="ts">
-  import "bootstrap/dist/css/bootstrap.min.css"
+  import "bootstrap/dist/css/bootstrap.min.css";
 
-  import NavBar from "./lib/NavBar.svelte"
+  import NavBar from "./lib/NavBar.svelte";
+  import Main from "./lib/Main.svelte";
+  import Footer from "./lib/Footer.svelte";
 </script>
 
 <main>
   <NavBar />
+  <Main />
+  <Footer />
 </main>
 
 <style>
